@@ -37,8 +37,6 @@ jobs:
       # 设置 pnpm（强制使用 v9，兼容 Node 22/24）
       - name: Setup pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: 9
 
       # 设置 Node.js 环境
       - name: Setup Node.js
